@@ -15,91 +15,145 @@ section{
 
 #s1{
     padding-left: 0;
-    padding-right: 90%;
+    padding-right: 1700px;
 }
 
 #d1{
     width: 100%;
     background-color: red;
+    color: red;
     padding: 10px;
     padding-right: 30px;
     padding-left: 30px;
 }
 
 #s2{
-    margin-left: 15%;
-    padding-right: 75%;
+    margin-left: 270px;
+    padding-right: 1450px;
 }
 
 #d2{
     width: 100%;
     background-color: orange;
+    color: orange;
     padding: 10px;
     padding-right: 30px;
     padding-left: 30px;
 }
 
 #s3{
-    margin-left: 30%;
-    padding-right: 60%;
+    margin-left: 540px;
+    padding-right: 1180px;
 }
 
 #d3{
     width: 100%;
     background-color: yellow;
+    color: yellow;
     padding: 10px;
     padding-right: 30px;
     padding-left: 30px;
 }
 
 #s4{
-    margin-left: 45%;
-    margin-right: 45%;
+    margin-left: 820px;
+    margin-right: 900px;
 }
 
 #d4{
     width: 100%;
     background-color: green;
+    color: green;
     padding: 10px;
     padding-right: 30px;
     padding-left: 30px;
 }
 
 #s5{
-    margin-left: 60%;
-    padding-right: 30%;
+    margin-left: 1100px;
+    padding-right: 620px;
 }
 
 #d5{
     width: 100%;
-    background-color: rgb(112, 112, 255);
+    background-color: #00ffff;
+    color: #00ffff;
     padding: 10px;
     padding-right: 30px;
     padding-left: 30px;
 }
 
 #s6{
-    margin-left: 75%;
-    padding-right: 15%;
+    margin-left: 1380px;
+    padding-right: 340px;
 }
 
 #d6{
     width: 100%;
     background-color: blue;
+    color: blue;
     padding: 10px;
     padding-right: 30px;
     padding-left: 30px;
 }
 
 #s7{
-    margin-left: 90%;
-    padding-right: 0%;
+    margin-left: 1660px;
+    padding-right: 60px;
 }
 
 #d7{
     width: 100%;
     background-color: purple;
+    color: purple;
     padding: 10px;
     padding-right: 30px;
     padding-left: 30px;
+}
+
+#divsep{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 0px;
+}
+
+.divsep{
+    flex-basis: 30%;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.divsep img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    mix-blend-mode: multiply;
+}
+
+#divjunt{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 0px;
+}
+
+a{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition-duration: 0.6s;
+    position: center;
+    display: center;
+    margin: 0px 850px;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
 }
